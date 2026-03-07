@@ -1,38 +1,82 @@
 ---
-title: Hello World
+title: ## 欢迎来到我的频道！
+我是**XX**，这是我用 **Hexo** 搭建的第一个博客。
+date: 2026-03-06 22:05:47
+tags:"如何编写markdown文案"
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+1. 标题（几层楼高）
+文字前面加 # 号，空格后再写标题。# 越多，字越小：
 
-## Quick Start
+# 我是一级标题（最大，通常做文章题目）
 
-### Create a new post
+## 我是二级标题（做小节名字）
 
-``` bash
-$ hexo new "My New Post"
-```
+### 我是三级标题（以此类推...）
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+2. 加粗与斜体（强调一下）
+加粗：在文字两边各加两个星号，像这样：**我要变胖**
 
-### Run server
+斜体：在文字两边各加一个星号，像这样：*我要歪掉*
 
-``` bash
-$ hexo server
-```
+~~删除线~~：两边加波浪线：~~我写错啦~~
 
-More info: [Server](https://hexo.io/docs/server.html)
+3. 列表（排排坐）
+无序列表：打一个减号 - 然后加空格：
 
-### Generate static files
+苹果
 
-``` bash
-$ hexo generate
-```
+香蕉
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+有序列表：打数字 1. 然后加空格：
 
-### Deploy to remote sites
+第一步
 
-``` bash
-$ hexo deploy
-```
+第二步
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+4. 引用与代码（特别标注）
+引用别人说的话：在开头加 > 号：
+
+ > 鲁迅：我没说过这句话。(^▽^)
+
+插入一行代码：用反引号包起来：`hexo s`
+
+插入一大块代码：用三个反引号包裹：
+
+---
+🌟 Markdown 高级小技巧
+1. 插入超链接（带你去玩）
+想让读者点击文字就能跳到网页？用 [我的github](https://github.com/cnbdg) 这种格式：
+
+欢迎访问  👈 就像这样！
+
+1. 插入图片（看图说话）
+格式和链接很像，只是前面多了一个感叹号 ![描述](图片地址)：
+
+![我的头像](https://example.com/avatar.jpg)
+（提示：你可以把图片传到微博图床或者直接放在博客文件夹里哟！）
+
+3. 漂亮的表格（整整齐齐）
+用竖线 | 和减号 - 就能画出表格，VS Code 会帮你对齐：
+
+4. 分割线（优雅换段）
+当你觉得一段话讲完了，想换个话题，直接输入三个星号 *** 或三个减号 ---：
+
+---
+
+(你看，上面出现了一条浅浅的线，很有高级感吧？)
+
+---
+
+⌨️ VS Code 里的“快捷键”神技
+既然你用了 VS Code，一定要试试这些提速技巧：
+
+一键加粗：选中一段文字，直接按 Ctrl + B。
+
+一键插入链接：选中文字，按 Ctrl + K。
+
+快速生成目录：在你安装了 Markdown All in One 插件后，在文档开头输入 [toc]，它会自动帮你把所有的标题生成一个可点击的目录列表哦！✨
+
+🎨 Hexo 特有的“小秘密”：Front-matter
+每一篇 Hexo 文章的最顶部都有几行被 --- 包裹的内容，那叫 Front-matter。你可以在这里给文章加标签：
+
+这样你的博客页面就会自动分类，读者找起来更方便啦！
