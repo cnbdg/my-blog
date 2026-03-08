@@ -446,9 +446,9 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <a href="https://home.cnbdg0826.dpdns.org/" target="_blank" rel="nofollow noopener"><span>导航页</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://xsf.indevs.in/" target="_blank" rel="nofollow noopener"><span>主页</span></a>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -616,7 +616,7 @@ post:
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
     # 提示标签类型
     # Note class
