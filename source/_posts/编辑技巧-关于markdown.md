@@ -2,6 +2,7 @@
 title: 编辑技巧-关于markdown
 date: 2026-03-07 20:59:14
 tags:
+categories: [makedown学习]
 ---
 🌟 Markdown 进阶装修指南
 1. 漂亮的折叠框（Details）
