@@ -3,12 +3,14 @@ title: 作业2026/3/16
 date: 2026-03-13 19:17:41
 tags:
 categories: [ 作业 ]
+banner_img: https://s21.ax1x.com/2025/07/23/pVGli59.jpg 
 ---
 **英语：**
 - [x] 单词三加一
 - [x] 仿写2a
 - [x] *打卡单词，知识点，句子*
 - [x] 写阅读
+
 
 **语文：**
 
